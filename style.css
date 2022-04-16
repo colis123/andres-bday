@@ -5,7 +5,7 @@
 }
 
 body {
-  color: rgb(232, 232, 232);
+  color: black;
   height: 100vh;
   text-align: center;
   padding: 1rem;
@@ -23,6 +23,7 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 1rem;
+  backdrop-filter: blur(1px);
 }
 
 .info h1 {
@@ -33,6 +34,8 @@ body {
   position: absolute;
   bottom: 5px;
   width: 40%;
+  animation: swing ease-in-out 1s infinite alternate;
+  animation-name: animate;
 }
 
 .zombie-plant {
@@ -41,6 +44,15 @@ body {
 
 .zombie {
   right: 5px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
 }
 
 @media screen and (min-width: 800px) {
