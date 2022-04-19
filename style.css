@@ -18,12 +18,13 @@ body {
 
 .top-background {
   height: 60px;
-  background-image: url("/images/grass-background.jpeg");
+  background-image: url("images/grass-background.jpeg");
+  border-bottom: 1px solid orange;
 }
 
 .bottom-background {
   height: 60px;
-  background-image: url("/images/grass-background.jpeg");
+  background-image: url("images/grass-background.jpeg");
 }
 
 .section {
