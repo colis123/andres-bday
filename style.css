@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Frijole&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,15 @@
 }
 
 body {
+  font-family: "Frijole", cursive;
   color: black;
   height: 100vh;
   text-align: center;
+  line-height: 2;
+}
+
+.seven {
+  font-size: 60px;
 }
 
 .wrapper {
@@ -30,15 +38,15 @@ body {
 
 .section {
   flex: 1;
-  padding: 1rem;
+  padding: 0rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 8rem;
+  gap: 3rem;
 }
 
 .zombie-sign img {
-  width: 200px;
+  width: 250px;
 }
 /* .info {
   height: 100%;
