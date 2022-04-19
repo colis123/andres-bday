@@ -16,6 +16,7 @@ body {
 
 .seven {
   font-size: 60px;
+  line-height: 0;
 }
 
 .wrapper {
@@ -25,13 +26,13 @@ body {
 }
 
 .top-background {
-  height: 60px;
+  height: 10%;
   background-image: url("images/grass-background.jpeg");
   border-bottom: 4px solid rgb(218, 166, 70);
 }
 
 .bottom-background {
-  height: 60px;
+  height: 10%;
   background-image: url("images/grass-background.jpeg");
   border-top: 4px solid rgb(218, 166, 70);
 }
@@ -43,6 +44,10 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
+}
+
+.age {
+  line-height: 2;
 }
 
 .zombie-sign img {
