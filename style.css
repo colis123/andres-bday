@@ -19,18 +19,27 @@ body {
 .top-background {
   height: 60px;
   background-image: url("images/grass-background.jpeg");
-  border-bottom: 1px solid orange;
+  border-bottom: 4px solid rgb(218, 166, 70);
 }
 
 .bottom-background {
   height: 60px;
   background-image: url("images/grass-background.jpeg");
+  border-top: 4px solid rgb(218, 166, 70);
 }
 
 .section {
   flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8rem;
 }
 
+.zombie-sign img {
+  width: 200px;
+}
 /* .info {
   height: 100%;
   display: flex;
