@@ -8,14 +8,29 @@ body {
   color: black;
   height: 100vh;
   text-align: center;
-  padding: 1rem;
-  background-image: url("./images/grass-background.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
-.info {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top-background {
+  height: 60px;
+  background-image: url("/images/grass-background.jpeg");
+}
+
+.bottom-background {
+  height: 60px;
+  background-image: url("/images/grass-background.jpeg");
+}
+
+.section {
+  flex: 1;
+}
+
+/* .info {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -59,4 +74,4 @@ body {
   .size {
     width: 350px;
   }
-}
+} */
